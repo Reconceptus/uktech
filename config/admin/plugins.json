@@ -588,6 +588,24 @@
     "sql_column" : "full_name"
   },
   {
+    "name"       : "first_name",
+    "typeField"  : "input",
+    "nameText"   : "Имя",
+    "nameAttr"   : "pl[first_name]",
+    "description": "Текстовое поле инпут \"Имя\"",
+    "idAttr"     : "inputFirst_name",
+    "sql_column" : "first_name"
+  },
+  {
+    "name"       : "last_name",
+    "typeField"  : "input",
+    "nameText"   : "Фамилия",
+    "nameAttr"   : "pl[last_name]",
+    "description": "Текстовое поле инпут \"Фамилия\"",
+    "idAttr"     : "inputLast_name",
+    "sql_column" : "last_name"
+  },
+  {
     "name"       : "delivery_time_1",
     "typeField"  : "input",
     "nameText"   : "Время доставки(запрсил клиент)",
@@ -1907,5 +1925,28 @@
       "type": "replace",
       "multiple": "multiple"
     }
+  },
+  {
+    "name"        : "user_description",
+    "typeField"   : "textarea",
+    "classAttr"   : "area",
+    "nameText"    : "Описание",
+    "nameAttr"    : "pl[user_description]",
+    "description" : "Текстовое поле \"user_description\"",
+    "idAttr"      : "textareaUser_description",
+    "maxlength"   : "12000",
+    "translateKey": "user_description",
+    "sql_column"  : "user_description"
+  },
+  {
+    "name"        : "position",
+    "typeField"   : "input",
+    "nameText"    : "Должность",
+    "nameAttr"    : "pl[position]",
+    "description" : "Текстовое поле \"position\"",
+    "idAttr"      : "inputPosition",
+    "maxlength"   : "500",
+    "translateKey": "position",
+    "sql_column"  : "position"
   }
 ]

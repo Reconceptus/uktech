@@ -822,8 +822,8 @@
         margin-bottom: 45px;
     }
 
-    .team-member__title {
-        font-size: 20px;
+    .team-member__info-content {
+        padding: 35px;
     }
 }
 
@@ -1283,20 +1283,11 @@
     }
 
     .team-member__info-content {
-        padding: 20px 15px;
-        font-size: 14px;
-    }
-
-    .team-member__title {
-        font-size: 18px;
+        padding: 25px;
     }
 
     .team-member__description {
         padding-left: 20px;
-    }
-
-    .team-member__contact-info .address-info svg {
-        top: 4px;
     }
 }
 
@@ -1409,12 +1400,6 @@
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    }
-
-    .site-footer .subscribe-form .flex-group {
-        -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
     }
 
     .subscribe-form .email-field {
@@ -2058,12 +2043,6 @@
         margin-bottom: 5px;
     }
 
-    .site-footer .subscribe-form .flex-group {
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    }
-
     .site-footer .subscribe-form .select {
         width: 100%;
         border-left: none;
@@ -2075,7 +2054,6 @@
 
     .site-footer .subscribe-form .input-holder {
         margin-bottom: 5px;
-        width: calc(50% - 1px);
     }
 
     .site-footer .subscribe-form .flex-group {
