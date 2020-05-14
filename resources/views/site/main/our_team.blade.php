@@ -17,7 +17,7 @@
             </div>
         </section>
         <section class="indent-block">
-            <div class="container">
+            <div class="container small">
                 @foreach($employees as $emp)
                     @php($img = $emp['file'] ? $emp['crop'] ? $path_big . $emp['crop'] : $path_big . $emp['file'] : '')
                     <div class="team-member">

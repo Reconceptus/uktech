@@ -822,12 +822,8 @@
         margin-bottom: 45px;
     }
 
-    .team-member__info-content {
-        padding: 20px;
-    }
-
     .team-member__description {
-        padding-left: 40px;
+        padding-left: 100px;
     }
 }
 
@@ -1286,12 +1282,8 @@
         margin-bottom: 35px;
     }
 
-    .team-member__info-content {
-        padding: 20px 15px;
-    }
-
     .team-member__description {
-        padding-left: 20px;
+        padding-left: 60px;
     }
 }
 
@@ -1857,7 +1849,7 @@
     .team-member__info {
         width: 100%;
         margin: 0 auto 20px;
-        max-width: 360px
+        max-width: 240px
     }
 
     .team-member__description {

@@ -4145,7 +4145,7 @@ body:not(.touch-device) .posts-list .post:hover:before {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    max-width: 1040px;
+    max-width: 860px;
 }
 
 .team-member + .team-member {
@@ -4153,8 +4153,7 @@ body:not(.touch-device) .posts-list .post:hover:before {
 }
 
 .team-member__info {
-    width: 30%;
-    min-width: 250px;
+    width: 240px;
     -webkit-flex-shrink: 0;
     -moz-flex-shrink: 0;
     -ms-flex: 0;
@@ -4169,12 +4168,13 @@ body:not(.touch-device) .posts-list .post:hover:before {
 .team-member__info-content {
     background: #240D4D;
     color: #fff;
-    padding: 20px 25px;
+    padding: 20px 15px;
 }
 
 .team-member__title {
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     margin-bottom: .5em;
 }
 
@@ -4206,7 +4206,8 @@ body:not(.touch-device) .posts-list .post:hover:before {
     -webkit-flex-grow: 1;
     -ms-flex: 1;
     flex-grow: 1;
-    padding-left: 60px;
+    padding-left: 140px;
+    text-align: justify;
 }
 
 .team-member__description .blockquote {
