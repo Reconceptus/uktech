@@ -822,8 +822,12 @@
         margin-bottom: 45px;
     }
 
-    .team-member__title {
-        font-size: 20px;
+    .team-member__info-content {
+        padding: 20px;
+    }
+
+    .team-member__description {
+        padding-left: 40px;
     }
 }
 
@@ -1284,19 +1288,10 @@
 
     .team-member__info-content {
         padding: 20px 15px;
-        font-size: 14px;
-    }
-
-    .team-member__title {
-        font-size: 18px;
     }
 
     .team-member__description {
         padding-left: 20px;
-    }
-
-    .team-member__contact-info .address-info svg {
-        top: 4px;
     }
 }
 
