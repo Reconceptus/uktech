@@ -1043,14 +1043,17 @@
     mobileTabsMenu();
   }
 
-  var
-    venoboxLink = $('.venobox-btn');
+  var venoboxLink = $('.venobox-btn');
 
   if(venoboxLink.length !== 0) {
-    venoboxLink.venobox({
-      framewidth : '100vw',
-      frameheight: '100vh'
-    });
+    if (venoboxLink.attr('data-css') === 'image-gallery') {
+      venoboxLink.venobox();
+    } else {
+      venoboxLink.venobox({
+        framewidth : '100vw',
+        frameheight: '100vh'
+      });
+    }
   }
 
   if($('.simple-slider').length !== 0) {

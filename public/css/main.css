@@ -4104,36 +4104,57 @@ body:not(.touch-device) .posts-list .post:hover:before {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 0 -15px -60px;
+    margin: 0 -20px -40px;
     font-weight: bold;
 }
 
 .certificates-list li {
-    width: 25%;
-    padding: 0 15px;
-    margin-bottom: 60px;
-}
-
-.certificates-list li svg {
-    -webkit-flex-shrink: 0;
-    -moz-flex-shrink: 0;
-    -ms-flex: 0;
-    flex-shrink: 0;
-    width: 38px;
-    height: 38px;
-    margin-right: 10px;
+    padding: 0 20px;
+    margin-bottom: 40px;
 }
 
 .certificates-list a {
-    display: -ms-inline-flexbox;
-    display: -webkit-inline-flex;
-    display: inline-flex;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 5px 24px 4px rgba(0, 40, 112, .15);
+}
+
+.image-gallery {
+    background: rgba(0, 0, 0, .5) !important;
+}
+
+.image-gallery .vbox-content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.image-gallery .vbox-content img {
+    width: auto;
+    max-width: 90vw;
+    height: auto;
+    max-height: 90vh;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.image-gallery .vbox-close {
+    color: #fff !important;
+    background: transparent !important;
 }
 
 .team-member {
