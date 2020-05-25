@@ -814,14 +814,6 @@
         font-size: 22px;
     }
 
-    .certificates-list {
-        margin-bottom: -45px;
-    }
-
-    .certificates-list li {
-        margin-bottom: 45px;
-    }
-
     .team-member__description {
         padding-left: 100px;
     }
@@ -1271,15 +1263,6 @@
     .location-info .add-to-wishList svg {
         width: 24px;
         height: 24px;
-    }
-
-    .certificates-list {
-        margin-bottom: -35px;
-    }
-
-    .certificates-list li {
-        width: 33.33%;
-        margin-bottom: 35px;
     }
 
     .team-member__description {
@@ -1828,12 +1811,17 @@
     }
 
     .certificates-list {
-        margin-bottom: -25px;
+        margin: 0 -15px -30px;
     }
 
     .certificates-list li {
-        width: 50%;
-        margin-bottom: 25px;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .image-gallery .vbox-content img {
+        max-width: 60vw;
+        max-height: 70vh;
     }
 
     .team-member {
@@ -2230,22 +2218,6 @@
     .page-search-form .search-form .button {
         min-width: 90px;
         padding: 11px 15px;
-    }
-
-    .certificates-list {
-        font-size: 13px;
-        margin: 0 -10px -20px;
-    }
-
-    .certificates-list li {
-        padding: 0 10px;
-        margin-bottom: 20px;
-    }
-
-    .certificates-list li svg {
-        width: 28px;
-        height: 28px;
-        margin-right: 5px;
     }
 
     .team-member + .team-member {
