@@ -17,78 +17,79 @@
                 </div>
             </div>
         </section>
-        <section class="indent-block">
-            <div class="container">
-                <h3 class="text-center mb-md">{!! $langSt($about['block_4_1']) !!}</h3>
-                {{--<ul class="certificates-list">
-                    @foreach($slider_1 as $sl_1)
-                        @php($img = $sl_1['file'] ? $sl_1['crop'] ? $path_big . $sl_1['crop'] : $path_big . $sl_1['file'] : '')
-                    <li>
-                        <a href="{{$img}}" target="_blank" class=""><svg><use xlink:href="/images/svg/sprite.svg#pdf"></use></svg> {{ str_replace(['.pdf','.jpg','.jpeg','.png'],'',$sl_1['orig_name']) }}</a>
-                    </li>
-                    @endforeach
-                </ul>--}}
-
-                <ul class="certificates-list">
-                    <li>
-                        <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-1">
-                            <img src="/img/img_1.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/img/img_9.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-1">
-                            <img src="/img/img_2.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-1">
-                            <img src="/img/img_3.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="indent-block">
-            <div class="container">
-                <h3 class="text-center mb-md">{!! $langSt($about['block_4_2']) !!}</h3>
-               {{-- <ul class="certificates-list">
-                    @foreach($slider_2 as $sl_2)
-                        @php($img = $sl_2['file'] ? $sl_2['crop'] ? $path_big . $sl_2['crop'] : $path_big . $sl_2['file'] : '')
+        <div class="certificates-sections">
+            <section class="indent-block">
+                <div class="container">
+                    <h3 class="text-center mb-md">{!! $langSt($about['block_4_1']) !!}</h3>
+                    {{--<ul class="certificates-list">
+                        @foreach($slider_1 as $sl_1)
+                            @php($img = $sl_1['file'] ? $sl_1['crop'] ? $path_big . $sl_1['crop'] : $path_big . $sl_1['file'] : '')
                         <li>
                             <a href="{{$img}}" target="_blank" class=""><svg><use xlink:href="/images/svg/sprite.svg#pdf"></use></svg> {{ str_replace(['.pdf','.jpg','.jpeg','.png'],'',$sl_1['orig_name']) }}</a>
                         </li>
-                    @endforeach
-                </ul>--}}
-                <ul class="certificates-list">
-                    <li>
-                        <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
-                            <img src="/img/img_4.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/img/img_9.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
-                            <img src="/img/img_5.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
-                            <img src="/img/img_5.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/img/img_9.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
-                            <img src="/img/img_6.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
-                            <img src="/img/img_7.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                        @endforeach
+                    </ul>--}}
 
+                    <ul class="certificates-list">
+                        <li>
+                            <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-1">
+                                <img src="/img/img_1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/img/img_9.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-1">
+                                <img src="/img/img_2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-1">
+                                <img src="/img/img_3.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="indent-block">
+                <div class="container">
+                    <h3 class="text-center mb-md">{!! $langSt($about['block_4_2']) !!}</h3>
+                    {{-- <ul class="certificates-list">
+                         @foreach($slider_2 as $sl_2)
+                             @php($img = $sl_2['file'] ? $sl_2['crop'] ? $path_big . $sl_2['crop'] : $path_big . $sl_2['file'] : '')
+                             <li>
+                                 <a href="{{$img}}" target="_blank" class=""><svg><use xlink:href="/images/svg/sprite.svg#pdf"></use></svg> {{ str_replace(['.pdf','.jpg','.jpeg','.png'],'',$sl_1['orig_name']) }}</a>
+                             </li>
+                         @endforeach
+                     </ul>--}}
+                    <ul class="certificates-list">
+                        <li>
+                            <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
+                                <img src="/img/img_4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/img/img_9.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
+                                <img src="/img/img_5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
+                                <img src="/img/img_5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/img/img_9.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
+                                <img src="/img/img_6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/img/img_8.jpg" class="venobox-btn" data-css="image-gallery" data-gall="certificate-gallery-2">
+                                <img src="/img/img_7.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
         <section class="subscribe-section" style="background-image: url('/images/banners/img_2.jpg')">
             <div class="container">
                 <div class="row text-center">
