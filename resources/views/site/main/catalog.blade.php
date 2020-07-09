@@ -313,6 +313,6 @@
     </script>
 
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6PFq1z3G7_YGiZl1KUuVVH_kxI2YAdaA&callback=catAll.initMap&language={{ $lang }}"></script>
+      src="https://maps.googleapis.com/maps/api/js?key={{env('GOOGLE_MAP_KEY')}}&callback=catAll.initMap&language={{ $lang }}"></script>
   @endpush
 @endsection
