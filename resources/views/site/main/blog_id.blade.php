@@ -8,7 +8,6 @@
     : env('PATH_TO_IMG_DEFAULT')
   )
 
-  <?php dd($blog); ?>
   @if(!empty($blog['file']))
 @section('ogimage', $path.$blog['file'])
 @endif
