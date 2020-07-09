@@ -20,7 +20,7 @@
   <meta property="og:title" content="{{ $meta['title'] ?? '' }}" />
   {{--<meta property="og:type" content="movie"/>--}}
   <meta property="og:url" content="{{ \URL::full() }}" />
-  <meta property="og:image" content="@yield('ogimage')" />
+  <meta property="og:image" content="@yield('ogimage','/img/ukshare.jpg')" />
   {{--<meta property="og:site_name" content="IMDb"/>--}}
   {{--<meta property="fb:admins" content="USER_ID"/>--}}
   <meta property="og:description" content="{{ $meta['description'] ?? '' }}" />
