@@ -9,7 +9,7 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO4_qS5tqKWQwDl2-ujJpAn95dHU90GzU&amp;libraries=places&amp;sensor=false&language={{ $lang }}"></script>
     <script>
       function initMap() {
-        var myLatLng = {lat: 51.514981, lng: -0.123565};
+        var myLatLng = {lat: 51.509385, lng: -0.148766};
         var map      = new google.maps.Map(document.getElementById('map-canvas'), {
           zoom  : 15,
           center: myLatLng,
